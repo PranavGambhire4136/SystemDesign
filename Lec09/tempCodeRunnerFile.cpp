@@ -1,0 +1,1 @@
+oid setChannel(Channel* c) = 0;
