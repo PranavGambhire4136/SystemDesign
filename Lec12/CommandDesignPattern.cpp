@@ -45,6 +45,8 @@ public:
                 button[i] -> execute();
             }
             isPresed[i] = !isPresed[i];
+        } else {
+            cout <<"Pressing unassigned button";
         }
     }
 };
@@ -127,4 +129,5 @@ int main() {
     remote -> pressButton(2);
     remote -> pressButton(0);
     remote -> pressButton(2);
+    remote -> pressButton(3);
 }
