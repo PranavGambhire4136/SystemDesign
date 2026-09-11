@@ -25,8 +25,6 @@ Singleton* Singleton::isObject = nullptr;
 int main() {
     Singleton *obj1 = Singleton::CreateInstance();
     Singleton *obj2 = Singleton::CreateInstance();
-
-
     
     cout<<"IsSame => "<<(obj1 == obj2)<<endl;
 }

@@ -16,7 +16,8 @@ public:
     }
 };
 
-Singleton* Singleton::isObject = new Singleton();;
+Singleton* Singleton::isObject = new Singleton();
+//Create new object here only 
 
 int main() {
     Singleton *obj1 = Singleton::CreateInstance();
